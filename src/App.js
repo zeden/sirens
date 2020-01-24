@@ -1,4 +1,4 @@
-import React from "react";/*zet*/
+import React from "react"; /*zets*/
 import ReactDOM from "react-dom";
 import {
   HashRouter as Router,
