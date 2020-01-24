@@ -1,0 +1,61 @@
+:root {
+  --width: 33%;
+}
+
+.PreviewSider {
+  animation: fadein 0.5s;
+  background-color: #fff;
+  box-shadow: 0 0.25rem 1rem rgba(48, 55, 66, 0.15);
+  z-index: 2;
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  flex: 0 0 var(--width) !important;
+  max-width: var(--width) !important;
+  min-width: var(--width) !important;
+  width: var(--width) !important;
+}
+
+.PreviewSider .ant-descriptions-item-label {
+  color: rgba(0, 0, 0, 0.45);
+}
+.PreviewSider .ant-descriptions-item-content {
+  color: inherit;
+}
+.PreviewSider .ant-descriptions-item-colon::after {
+  content: "";
+}
+.PreviewSider .ant-descriptions-row > th,
+.ant-descriptions-row > td {
+  padding-bottom: 8px;
+}
+.PreviewSider .header {
+  display: table;
+  padding: 10px;
+  width: 100%;
+}
+.PreviewSider .header > div {
+  display: table-cell;
+}
+.PreviewSider .header > div:nth-child(1) {
+  text-align: left;
+}
+.PreviewSider .header > div:nth-child(2) {
+  text-align: center;
+  font-weight: bold;
+}
+.PreviewSider .header > div:nth-child(3) {
+  text-align: right;
+}
+.PreviewSider .ant-descriptions-item > span {
+  display: block;
+}
+.PreviewSider .ant-steps .ant-btn {
+  margin: 5px 5px 5px 0px !important;
+}
+.PreviewSider .ant-steps .ant-steps-item-description {
+  font-size: 12px;
+}
